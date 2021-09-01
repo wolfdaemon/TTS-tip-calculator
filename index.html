@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<<<<<<< HEAD
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script src="tipCalc.js"></script> -->
+</body>
+</html>
+=======
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+  </head>
+  <link rel="stylesheet" href="index.cdd.css" />
+
+  <body>
+    <div>
+      <h1 id="heading">Tip Calculator</h1>
+    <div>
+      <form>
+        <label for="billAmount">Total Amount Of Bill:</label>
+        <input type="text" id="billAmount" /><br />
+        <h3>How would you rate your service?</h3>
+
+        <select id="tipPercent">
+          <option id="fair" value="0.1">Fair: 10%</option>
+          <option id="Good" value="0.15">Good: 15%</option>
+          <option id="Great" value="0.2">Great: 20%</option>
+        </select>
+
+        <!-- <select id="tipPercent">
+        <option disabled selected value="0">-- Choose an Option --</option>
+        <option value="0.3">30&#37; &#45; Outstanding</option>
+        <option value="0.2">20&#37; &#45; Good</option>
+        <option value="0.15">15&#37; &#45; It was OK</option>
+        <option value="0.1">10&#37; &#45; Bad</option>
+        <option value="0.05">5&#37; &#45; Terrible</option>
+    </select> -->
+      </form>
+      <p></p>
+      <label for="amountPeople">How Many People?:</label>
+      <input type="text" id="amountPeople" /><br />
+      <p></p>
+      <!-- <label for="totalTip">Tip Total:</label> -->
+      
+      <div>
+        <button id="calculate">Calculate</button>
+      </div>
+    </div>
+      <br>
+      <div id="totalTip">
+        <!-- <input type="text" id="totalTip" disabled="disabled"> Each person<br> -->
+        <span id="tip">0.00</span>
+      </div>
+      
+      <p></p>
+      <label>&nbsp;</label>
+      <!-- <button id="calculate">Calculate</button> -->
+      <!-- <input  type="button" id="calculate" placeholder="Calculate"><br> -->
+      <!-- </section> -->
+    </div>
+
+    <script src="tipCalc.js"></script>
+  </body>
+</html>
+>>>>>>> troyBranch

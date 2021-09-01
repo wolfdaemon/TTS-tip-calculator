@@ -1,0 +1,17 @@
+body {
+  background-image: url('https://tse1.mm.bing.net/th?id=OIP.Cgu8yMqADZeFn3kIky39zAHaHa&pid=Api&P=0&w=300&h=300');
+  background-repeat: no-repeat;
+  background-position: contain;
+  width: fit-content;
+  height: fit-content;
+}
+
+div {
+  color: rgb(247, 14, 6);
+  text-align: left;
+  line-height: 0.1;
+}
+
+#totalTip {
+    
+}

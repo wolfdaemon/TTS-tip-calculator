@@ -10,5 +10,5 @@ As previously stated, this project is copyleft-protected freedom software. You m
 
 ## Download and Use
 To get started with the code, simply put in your terminal:
-`git clone https://github.com/Block-Crusader/TTS-tip-calculator`
+```git clone https://github.com/Block-Crusader/TTS-tip-calculator```
 And you're good to go to implement it in your websites and webapps. You can use it in your local browser as long as you access the local files saved on your system.

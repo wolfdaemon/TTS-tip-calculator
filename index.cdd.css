@@ -1,8 +1,11 @@
+/* Sets the background color of the body to grey, and sets the
+page's font-family depending on the user's OS */
 body {
   background-color: #a1a1a2;
   font-family:Arial, Helvetica, sans-serif;
 }
 
+/* Sets the decorative background, decor, and boundaries of the calculator */
 #whole-calculator {
     background-color: #fff;
     width: 400px;
@@ -12,10 +15,12 @@ body {
     border-radius: 30px;
 }
 
+/* Sets the margin of the "tip jar" logo */
 img {
     margin-top: 20px;
 }
 
+/* Sets the functional implications of the appearance of the calculator */
 #calculator {
     background-repeat: no-repeat;
     background-position: cover;
@@ -24,14 +29,20 @@ img {
     margin:auto;
 }
 
+/* Sets the "title" heading of the calculator within the body, i.e. the
+"Tip Calculator" text */
 #calculator h1 {
     text-align: center;
 }
 
+/* Sets the actual width of the billAmount text within the calculator,
+i.e., quote: the "Total Amount Of Bill: $" label */
 #billAmount {
     width: 130px;
 }
 
+/* The display attributes for selection drop-down "Quality of Service"
+button */
 select {
     display: block;
     margin: 0 auto;
@@ -39,20 +50,26 @@ select {
     padding: 5px;
 }
 
+/* The display attributes for the numerical input text
+box "How Many People" button */
 #people {
     display: flex;
     justify-content: space-between;
 }
 
+/* The properties for the "How would you rate your service"
+heading caption */
 form h3 {
     text-align: center;
 }
 
+/* The display attributes for the "Calculate" button */
 #button-calc {
     display:flex;
     justify-content:center;
 }
 
+/* The display attributes for the "Calculate" button text */
 #calculate {
     font-size: 18px;
     font-weight: bold;
@@ -60,7 +77,8 @@ form h3 {
     background-color: olive;
     color: #fff;
 }
-    
+
+/* The display attributes for the tip result div element */
 #totalTip {
     display: flex;
     justify-content: center;

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tip Calculator</title>
+    <title>TTS Tip Calculator</title>
   </head>
+  <!-- Link to Cascading Style Sheet-->
   <link rel="stylesheet" href="index.cdd.css" />
 
   <body>
@@ -22,28 +23,31 @@
           <h1 id="heading">Tip Calculator</h1>
           <div>
             <form>
+              <!-- Text box input for the entering the actual bill amount-->
               <div id="bill">
                 <label for="billAmount">Total Amount Of Bill: $</label>
                 <input type="text" id="billAmount" name="billAmount" placeholder="Enter Check Total"/>
               </div>
+
+              <!-- Header for the "Quality of Service" inputs-->
               <h3>How would you rate your service?</h3>
 
-              <!-- Tip percentage/Service Quality Choices -->
+              <!-- Tip percentage/"Quality of Service" Choices -->
               <select id="tipPercent">
                 <option id="fair" value="0.1">Fair: 10%</option>
                 <option id="Good" value="0.15">Good: 15%</option>
                 <option id="Great" value="0.2">Great: 20%</option>
               </select>
+            </form><br>
 
-            </form>
-            <p></p>
+            <!-- Text box input for the entering the amount of people eating at the table -->
             <div id="people">
               <label for="amountPeople">How Many People?</label>
               <input type="text" id="amountPeople" name="amountPeople" placeholder="Enter Number in Party"/>
             </div>
-            <br />
+          <br>
 
-         <!-- Calculation button  -->
+         <!-- Calculation button -->
             <div id="button-calc">
               <button id="calculate">Calculate</button>
             </div>
@@ -62,6 +66,7 @@
       </div>
     </div>
 
+    <!-- Link to JavaScript-->
     <script src="tipCalc.js"></script>
   </body>
 </html>

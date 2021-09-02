@@ -1,6 +1,5 @@
 # TTS Tip Calculator
 
-## About
 *TSS Tip Calculator* is a restaurant-style "tip" calculator commissioned by Tech Talent South. It is currently licensed under the GNU General Public License v3.0, making it freedom software.
 
 With *TSS Tip Calculator*, you can calculate the amount of tip you're supposed to pay when going out to eat; putting into variables like the total price, the amount of people in your party, and the quality of service, you can be confident that you'll get the proper amount to the server that catered to you.
